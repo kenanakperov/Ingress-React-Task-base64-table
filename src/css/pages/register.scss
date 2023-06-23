@@ -1,0 +1,33 @@
+.register{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h2{
+        color: green;
+    }
+    input{
+        width: 280px;
+        height: 30px;
+        margin-bottom: 15px;
+        border: none;
+        border-bottom: 1px solid green;
+        border-radius: 5px;
+        outline: green;
+        color: green;
+    }
+    .file{
+        border: none;
+    }
+    button{
+        width: 140px;
+        height: 40px;
+        background-color: green;
+        color: white;
+        font-size: large;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}
